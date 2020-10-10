@@ -35,7 +35,7 @@ public class Controller {
                         HttpResponse.BodyHandlers.ofString());
     }
 
-    // Gets available category names on Spotify
+    // Gets the categories names from Spotify's API
 
     public void requestCategories(final String accessToken, final String apiServer, final String category) throws IOException, InterruptedException {
         String uriPart = "categories";
